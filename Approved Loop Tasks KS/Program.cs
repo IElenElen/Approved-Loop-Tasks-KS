@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Loop Tasks");
+            Console.WriteLine("Approved Loop Tasks");
 
             Console.WriteLine("Task no 1");
             //Napisz program, który sprawdzi ile jest liczb pierwszych w zakresie 0 - 100.
