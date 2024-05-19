@@ -195,7 +195,7 @@
             //binary number
 
             Console.WriteLine("Podaj liczbę dziesiętną");
-            string decNo = Console.ReadLine();
+            string? decNo = Console.ReadLine();
             int bin;
 
             if (int.TryParse(decNo, out bin))
@@ -221,11 +221,11 @@
             //Napisz program, który znajdzie najmniejszą wspólną wielokrotność dla zadanych 2 liczb.
 
             Console.WriteLine("Podaj pierwszą liczbę");
-            string inputNo1 = Console.ReadLine();
+            string? inputNo1 = Console.ReadLine();
             int no1str;
 
             Console.WriteLine("Podaj drugą liczbę");
-            string inputNo2 = Console.ReadLine();
+            string? inputNo2 = Console.ReadLine();
             int no2str;
 
             if (int.TryParse(inputNo1, out no1str) && int.TryParse(inputNo2, out no2str))
